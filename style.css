@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Portfolio{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+     color: white;
+     
+}
+nav{
+    position: relative;
+    bottom: 50px;
+    background-color: #0D1164;
+    height: 100px;
+    width: 100%;
+   
+}
+nav a{
+    float: inline-end;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+#main-profile{
+    display: inline-block;
+    
+}
+.jd-profile{
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+   float: left;
+   margin: 20px;
+}
+
+.aboutme1 {
+        padding: 40px;
+    
+}
+#mycontact{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+  
+}
+#mycontact>p{
+    padding: 40px;
+}
+@media (max-width: 490px){
+   .Portfolio{
+    text-align: center;
+    margin-bottom: 15px;
+   }
+   
+    nav a{
+    
+        margin-top: 55px;
+        margin-right: 40px;
+        text-align: center;
+    
+}
+.aboutme2 {
+        text-align: justify;
+        padding-left: 1rem;
+        
+    
+}
+.aboutme1 {
+        text-align: center;
+    
+    
+}
+.jd-profile{
+    margin-left: 5rem;
+}
+}
